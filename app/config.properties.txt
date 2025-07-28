@@ -1,0 +1,19 @@
+# Caminhos de logs
+errorLogPath=C:\\folder-watcher-email-sender\\app\\logs\\errors
+logPath=C:\\folder-watcher-email-sender\\app\\logs\\
+monitorDir=C:\\CAMINHO\\DA\\PASTA\\MONITORADA
+
+# Configurações do e-mail
+mail.smtp.auth=true
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=587
+mail.smtp.starttls.enable=true
+mail.smtp.user=SEU_EMAIL@gmail.com
+mail.smtp.password=SUA_SENHA_DE_APP
+
+# Credenciais do banco de dados
+db.server=localhost
+db.port=3050
+db.path=C:\\folder-watcher-email-sender\\db\\DBMAIN.FDB
+user=SYSDBA
+password=masterkey
